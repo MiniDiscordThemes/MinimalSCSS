@@ -1,24 +1,20 @@
 {
 	"name": "minimal-preprocessor",
 	"version": "1.0.0",
-	"description": "Minimal template for SCSS/Stylus to CSS on GitHub Pages for Discord themes.",
+	"description": "SCSS to CSS on GitHub Pages for Discord themes.",
 	"repository": "github:MiniDiscordThemes/minimal-preprocessor",
 	"author": "Saltssaumure <themes@saltssaumure.net>",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
-		"dev:scss": "sass ./scss:./dev --no-source-map --no-charset --watch --update",
-		"dist:scss": "sass ./scss:./dist --no-source-map --no-charset --style=compressed",
-		"dev:styl": "stylus ./styl/main.styl -o ./dev -w",
-		"dist:styl": "stylus ./styl/main.styl -o ./dist -c",
-		"format": "prettier ./scss --write --log-level warn && stlint ./styl --fix"
+		"watch": "sass ./scss:./dev --no-source-map --no-charset --watch --update",
+		"build": "sass ./scss:./dist --no-source-map --no-charset --style=compressed",
+		"format": "prettier ./scss --write --log-level warn"
 	},
 	"dependencies": {
-		"sass": "^1.77.6",
-		"stylus": "^0.63.0"
+		"sass": "^1.77.6"
 	},
 	"devDependencies": {
-		"prettier": "^3.3.2",
-		"stlint": "^1.0.65"
+		"prettier": "^3.3.2"
 	}
 }
