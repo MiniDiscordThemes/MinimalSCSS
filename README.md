@@ -3,8 +3,10 @@
 SCSS to CSS on GitHub Pages for Discord themes.
 
 ## Usage
+<details><summary>Click here to learn how to use this template.</summary>
 
 ### Prerequisites
+
 You will need the following installed:
 1. [git](https://git-scm.com/downloads)
 2. [pnpm](https://pnpm.io/installation)
@@ -19,6 +21,8 @@ Write the theme files inside the `scss` directory.
 - Run `pnpm run watch` to compile human-readable CSS to the `dev` directory when changes are detected in `scss`.
 - Run `pnpm run build` to compile compressed CSS to the `dist` directory.
   - Use this to preview the version that will be published on GitHub Pages.
+- Run `pnpm run format` to tidy up formatting with Prettier.
+  - The format can be [configured](https://prettier.io/docs/en/options.html) in `.prettierrc.json`.
   
 #### Assets
 Images and other assets to publish on GitHub Pages should be placed in the `asset` directory.
@@ -47,6 +51,9 @@ MyTheme (deploy)
 ```
 
 To publish the output on GitHub Pages, simply go to the repository's  Settings > Pages, and select the `deploy` branch as the source.
+</details>
 
 ## License
-This template repository is licensed under the [MIT License](./LICENSE). Attribution is only required if you share or modify this template to be used as a template. Your themes created using this template do not need to retain the license and can use any license (or no license) as you wish.
+This template is licensed under the [MIT License](./LICENSE).
+
+Retaining the license is only required if you share or modify this to be used as a template by others. Your themes created using this template do not need to retain the license, and can use any license (or no license) as you wish.
