@@ -1,6 +1,6 @@
-# Minimal Preprocessor
+# Minimal SCSS
 
-SCSS to CSS on GitHub Pages for Discord themes.
+Minimal template for writing Discord themes in SCSS.
 
 ## Usage
 <details><summary>Click here to learn how to use this template.</summary>
@@ -12,7 +12,7 @@ You will need the following installed:
 2. [pnpm](https://pnpm.io/installation)
 
 ### Setup
-1. With this repository as a template, [create a new repository](https://github.com/new?template_name=minimal-preprocessor&template_owner=MiniDiscordThemes) for your theme.
+1. With this repository as a template, [create a new repository](https://github.com/new?template_name=MinimalSCSS&template_owner=MiniDiscordThemes) for your theme.
 2. Clone your repo to your computer.
 3. Run `pnpm i` to install the dependencies.
 
@@ -33,7 +33,7 @@ When your repo is pushed to GitHub, the "Build and deploy CSS" workflow will run
 For example, for a theme with the following structure on the `main` branch:
 
 ```
-MyTheme (main)
+(main)
 ├── scss
 │   └── main.scss
 └── asset
@@ -44,16 +44,17 @@ MyTheme (main)
 This will be the output on the `deploy` branch:
 
 ```
-MyTheme (deploy)
+(deploy)
 ├── main.css
-└── img
-    └── a-icon.png
+└── asset
+    └── img
+        └── icon.png
 ```
 
-To publish the output on GitHub Pages, simply go to the repository's  Settings > Pages, and select the `deploy` branch as the source.
+To publish the output on GitHub Pages, simply go to the repository's Settings > Pages, and select the `deploy` branch as the source.
 </details>
 
 ## License
-This template is licensed under the [MIT License](./LICENSE).
+This template is licensed under the [MIT License](https://github.com/MiniDiscordThemes/MinimalSCSS/blob/main/LICENSE).
 
 Retaining the license is only required if you share or modify this to be used as a template by others. Your themes created using this template do not need to retain the license, and can use any license (or no license) as you wish.

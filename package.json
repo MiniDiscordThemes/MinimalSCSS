@@ -1,8 +1,8 @@
 {
-	"name": "minimal-preprocessor",
+	"name": "minimalscss",
 	"version": "1.0.0",
-	"description": "SCSS to CSS on GitHub Pages for Discord themes.",
-	"repository": "github:MiniDiscordThemes/minimal-preprocessor",
+	"description": "Minimal template for writing Discord themes in SCSS.",
+	"repository": "github:MiniDiscordThemes/MinimalSCSS",
 	"author": "Saltssaumure <themes@saltssaumure.net>",
 	"license": "MIT",
 	"private": true,
