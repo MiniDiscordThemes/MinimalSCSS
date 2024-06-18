@@ -2,9 +2,12 @@
 
 Minimal template for writing Discord themes in SCSS.
 
-## Usage
-<details><summary>Click here to learn how to use this template.</summary>
+## License
+This template is licensed under the [MIT License](https://github.com/MiniDiscordThemes/MinimalSCSS/blob/main/LICENSE).
 
+Retaining the license is only required if you share or modify this to be used as a template by others. Your themes created using this template do not need to retain the license, and can use any license (or no license) as you wish.
+
+## Usage
 ### Prerequisites
 
 You will need the following installed:
@@ -52,9 +55,3 @@ This will be the output on the `deploy` branch:
 ```
 
 To publish the output on GitHub Pages, simply go to the repository's Settings > Pages, and select the `deploy` branch as the source.
-</details>
-
-## License
-This template is licensed under the [MIT License](https://github.com/MiniDiscordThemes/MinimalSCSS/blob/main/LICENSE).
-
-Retaining the license is only required if you share or modify this to be used as a template by others. Your themes created using this template do not need to retain the license, and can use any license (or no license) as you wish.
