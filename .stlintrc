@@ -1,0 +1,14 @@
+{
+	"rules": {
+		"color": false,
+		"depthControl": {
+			"indentPref": "tab"
+		},
+		"mixedSpaces": {
+			"indentPref": "tab"
+		},
+		"sortOrder": false,
+		"useMixinInsteadUnit": false
+	},
+	"path": "./styl"
+}

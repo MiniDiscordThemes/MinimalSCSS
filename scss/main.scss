@@ -1,0 +1,12 @@
+@use "background";
+
+body {
+	color: red;
+	font:
+		14px Arial,
+		sans-serif;
+}
+
+h1::before {
+	content: "👭";
+}
