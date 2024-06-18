@@ -1,6 +1,52 @@
 # Minimal Preprocessor
 
-Minimal template for SCSS to CSS on GitHub Pages for Discord themes.
+SCSS to CSS on GitHub Pages for Discord themes.
 
 ## Usage
-1. `pnpm i`
+
+### Prerequisites
+You will need the following installed:
+1. [git](https://git-scm.com/downloads)
+2. [pnpm](https://pnpm.io/installation)
+
+### Setup
+1. With this repository as a template, [create a new repository](https://github.com/new?template_name=minimal-preprocessor&template_owner=MiniDiscordThemes) for your theme.
+2. Clone your repo to your computer.
+3. Run `pnpm i` to install the dependencies.
+
+### Theme editing
+Write the theme files inside the `scss` directory.
+- Run `pnpm run watch` to compile human-readable CSS to the `dev` directory when changes are detected in `scss`.
+- Run `pnpm run build` to compile compressed CSS to the `dist` directory.
+  - Use this to preview the version that will be published on GitHub Pages.
+  
+#### Assets
+Images and other assets to publish on GitHub Pages should be placed in the `asset` directory.
+
+### Publishing
+When your repo is pushed to GitHub, the "Build and deploy CSS" workflow will run automatically. This creates a `deploy` branch containing the compressed CSS and any theme assets.
+
+For example, for a theme with the following structure on the `main` branch:
+
+```
+MyTheme (main)
+├── scss
+│   └── main.scss
+└── asset
+    └── img
+        └── icon.png
+```
+
+This will be the output on the `deploy` branch:
+
+```
+MyTheme (deploy)
+├── main.css
+└── img
+    └── a-icon.png
+```
+
+To publish the output on GitHub Pages, simply go to the repository's  Settings > Pages, and select the `deploy` branch as the source.
+
+## License
+This template repository is licensed under the [MIT License](./LICENSE). Attribution is only required if you share or modify this template to be used as a template. Your themes created using this template do not need to retain the license and can use any license (or no license) as you wish.
